@@ -81,29 +81,12 @@ sleep 1
 {
     brew tap caskroom/cask
     brew tap jenkins-x/jx
-    brew cask install google-chrome
-    brew cask install docker
-    brew cask install kitematic
-    brew cask install hyper
     brew cask install visual-studio-code
-    brew cask install vagrant
-    brew cask install spotify
-    brew cask install minikube
-    brew cask install virtualbox
     brew cask install google-cloud-sdk
-    brew cask install ngrok
-    brew cask install zoomus
-    brew install terraform
     brew install node
     brew install python
-    brew install jq
     brew install kubernetes-cli
-    brew install kops
-    brew install jx
-    brew install kafka
-    brew install tmux
     brew install tree
-    brew install kubectx
 } || {
     echo "One or more brew formulas failed to install"
 }
